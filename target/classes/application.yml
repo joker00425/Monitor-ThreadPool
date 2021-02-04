@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+app:
+  id: monitor-thread
+apollo:
+  meta: http://172.16.242.52:8080/
+  bootstrap:
+    enabled: true
+    eagerLoad:
+      enabled: true
